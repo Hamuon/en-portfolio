@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Hamun",
-  initials: "DV",
+  initials: "HJ",
   url: "https://jscoder.ir",
   location: "Tabriz, Iran",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
@@ -14,7 +14,7 @@ export const DATA = {
   avatarUrl: "/me.png",
   skills: [
     "Html",
-    "CSS",
+    "Css",
     "Javascript",
     "React",
     "Next.js",
@@ -22,16 +22,12 @@ export const DATA = {
     "Tailwind",
     "Bootstrap",
     "Sass",
-    "Node.js",
-    "Express",
-    "Nest.js",
-    "Postgres",
-    "MongoDB",
     "Swagger",
+    "Postman",
+    "Material",
     "Ant Design",
     "Mantine",
     "Shadcn",
-    "Daisy",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -43,37 +39,31 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Hamuon",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/hamun-javadzadeghan",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/yor0a",
         icon: Icons.x,
 
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "https://hamunjz@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -128,7 +118,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
+      title: "Code To Image",
       href: "https://chatcollect.com",
       dates: "Jan 2024 - Feb 2024",
       active: true,
@@ -137,12 +127,7 @@ export const DATA = {
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
@@ -156,21 +141,16 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Magic UI",
+      title: "OTP Server",
       href: "https://magicui.design",
       dates: "June 2023 - Present",
       active: true,
       description:
         "Designed, developed and sold animated UI components for developers.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
       ],
       links: [
         {
@@ -188,7 +168,7 @@ export const DATA = {
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "llm.report",
+      title: "React Typescript Patterns",
       href: "https://llm.report",
       dates: "April 2023 - September 2023",
       active: true,
@@ -196,14 +176,8 @@ export const DATA = {
         "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
       technologies: [
         "Next.js",
+        "React.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
@@ -221,7 +195,7 @@ export const DATA = {
       video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
-      title: "Automatic Chat",
+      title: "Perfect Step Form",
       href: "https://automatic.chat",
       dates: "April 2023 - March 2024",
       active: true,
@@ -229,14 +203,9 @@ export const DATA = {
         "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
       technologies: [
         "Next.js",
+        "React.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
