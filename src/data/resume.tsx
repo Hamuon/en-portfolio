@@ -29,6 +29,15 @@ export const DATA = {
     "Mantine",
     "Shadcn",
   ],
+  additional: [
+    "Node.js",
+    "Express.js",
+    "Nest.js",
+    "MongoDB",
+    "Postgresql",
+    "Docker",
+    "TypeORM"
+  ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
